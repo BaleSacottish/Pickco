@@ -6,6 +6,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import sigin from './screens/signin/signin';
 import Tabs from './tabs';
+import companydetails from './screens/main/matching/matlist/companydetails';
+import CourseDetails from './screens/main/course/courestabs/courseDetails';
 
 const Stack = createStackNavigator();
 
@@ -20,10 +22,8 @@ const Navigation = () => {
                 }}>
                 <Stack.Screen name='sigin' component={sigin} />
                 <Stack.Screen name='Tabs' component={Tabs} />
-                {/* <Stack.Screen name='CourseDetails' component={CourseDetail} />
-                <Stack.Screen name='CompanyDetails' component={CompanyDetail} />
-                <Stack.Screen name="MatchingList" component={MatchingList} />
-                <Stack.Screen name="Cooplist" component={Cooplist} /> */}
+                <Stack.Screen name='CompanyDetails' component={companydetails} />
+                <Stack.Screen name='CourseDetails' component={CourseDetails} />
             </Stack.Navigator>
         </NavigationContainer>
 
