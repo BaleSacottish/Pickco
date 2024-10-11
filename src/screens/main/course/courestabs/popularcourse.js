@@ -90,9 +90,11 @@ const styles = StyleSheet.create({
     width: 80,
     height: 80,
     marginRight: 10
+    
 
   },
   icon: {
     alignSelf: 'center'
+  
   }
 })

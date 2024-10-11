@@ -12,7 +12,7 @@ import { Democurse } from '../../../firebase/dummydata/democourse'
 
 
 
-const Homepage = () => {
+const Homepage = ({navigation}) => {
 
   const [companyID, setCompanyID] = useState(DemoCompany)
   const [CourseID, setCourseID] = useState(Democurse)
@@ -54,8 +54,8 @@ const Homepage = () => {
         <ScrollView>
           <View style={{ marginTop: 20, flexDirection: 'column', alignItems: 'center' }}>
             <Image source={require('../../../assets/profile/profile.png')} style={{ width: "40%", height: 145, alignSelf: 'center', }} />
-            <Text style={{ marginTop: 5, alignSelf: 'center', fontSize: fontSize.font_18, fontFamily: fontFamily.bold, color: colors.black }}>name</Text>
-            <Text style={{ marginTop: 5, alignSelf: 'center', fontSize: fontSize.font_18, fontFamily: fontFamily.bold, color: colors.black }}>name</Text>
+            <Text style={{ marginTop: 5, alignSelf: 'center', fontSize: fontSize.font_18, fontFamily: fontFamily.bold, color: colors.black }}>Patiphat Mitsanthia</Text>
+            <Text style={{ marginTop: 5, alignSelf: 'center', fontSize: fontSize.font_18, fontFamily: fontFamily.bold, color: colors.black }}>B6311245</Text>
           </View>
 
           <View style={{ marginTop: 20 }}>

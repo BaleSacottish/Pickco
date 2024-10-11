@@ -11,7 +11,7 @@ const globalStyles = StyleSheet.create({
     welcome_padding2: {
         flex: 1,
         backgroundColor:colors.orange4,   
-        opacity:0.8  
+        opacity:1 
     },
 
     screen_padding: {

@@ -68,7 +68,7 @@ const sigin = ({navigation}) => {
                             </View>
                             <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between', backgroundColor: colors.white,borderRadius:20,height:60,padding:10,marginTop:20}}>
                                 <TextInput placeholder='Password' placeholderTextColor={colors.orange2} style={{width:'80%'}} />
-                                <FontAwesome name="lock" color="#FF895C" size={30} />
+                                <FontAwesome name="lock" color="#FF895C" size={30} style={{right:5}} />
                             </View>
 
 

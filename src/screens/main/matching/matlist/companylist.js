@@ -2,7 +2,7 @@ import { View, Text, SafeAreaView, Image, ScrollView, Pressable,Alert,TouchableO
 import React,{ useState, useEffect } from 'react'
 
 import { IPage1 } from '../matchinglist'
- import Feather from 'react-native-vector-icons/Feather'
+import Feather from 'react-native-vector-icons/Feather'
 
  import colors from '../../../../contrans/colors'
  import { fontFamily,fontSize } from '../../../../contrans/fonts'

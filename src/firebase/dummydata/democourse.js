@@ -12,8 +12,10 @@ export const Democurse = [
       Lessons:4,
       Limit_class:50,
       Specified_criteria:"ผู้เรียนมีคะแนนรวมทั้งหมดไม่ต่ำกว่า 70% ถือว่าผ่านเกณฑ์เพื่อรับประกาศนียบัตรในระบบได้",
-      Subject:"ภาษาอังกฤษเพื่อการสื่อสารในสังคม (English for Social Communication)",
-      TypeClass:"ภาษาและการสื่อสาร"
+      full_Subject:"ภาษาอังกฤษเพื่อการสื่อสารในสังคม (English for Social Communication)",
+      Subject:"ภาษาอังกฤษเพื่อการสื่อสารในสังคม ",
+      TypeClass:"ภาษาและการสื่อสาร",
+      Location:"online"
     },
     {
         id: 2,
@@ -93,7 +95,8 @@ export const Democurse = [
         Limit_class:50,
         Specified_criteria:"ผู้เรียนมีคะแนนรวมทั้งหมดไม่ต่ำกว่า 70% ถือว่าผ่านเกณฑ์เพื่อรับประกาศนียบัตรในระบบได้",
         Subject:"ภาษาอังกฤษเพื่อการสื่อสารในสังคม (English for Social Communication)",
-        TypeClass:"ภาษาและการสื่อสาร"
+        TypeClass:"ภาษาและการสื่อสาร",
+        Location:"online"
     },
     
   ];
